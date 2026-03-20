@@ -33,7 +33,7 @@ export default function ContactAction() {
       <div className="mt-5 flex justify-center">
         <a
           target="_blank"
-          href="https://fardeenxarceus.github.io/Resume/resume.pdf"
+          href="https://shaikhmdfaiz979.github.io/Resume/resume.pdf"
           className="hidden md:block bg-indigo-600 text-white px-5 py-2 rounded text-xs font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20"
           onClick={() => {}}
         >
