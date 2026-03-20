@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-300 text-slate-900 antialiased transition-colors duration-500;
+}
+
+.dark body {
+  @apply bg-[#020617] text-slate-100;
+}
+
+/* Force high contrast on headers */
+h1,
+h2,
+h3 {
+  @apply text-slate-900 dark:text-white transition-colors;
+}
+
+/* Custom Scrollbar for that 'Pro' feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 dark:bg-slate-800 rounded-full;
+}
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.reveal {
+  view-timeline-name: --reveal;
+  view-timeline-axis: block;
+  animation-linear: allow;
+  animation-name: reveal;
+  animation-timeline: --reveal;
+  animation-range: entry 10% cover 30%;
+}
