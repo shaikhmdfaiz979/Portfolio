@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const hireBtnClick = () => {
     window.scrollTo({
-      top: 800,
+      top: 2000,
       left: 0,
       behavior: "smooth",
     });
