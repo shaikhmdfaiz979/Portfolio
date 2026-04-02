@@ -4,8 +4,9 @@ export default function Footer() {
   return (
     <footer className="mt-5 pb-20 px-6 border-t border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto pt-24 text-center">
-        <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-slate-900 dark:text-white mb-12">
-          Ready to start a <br />
+        <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-12">
+          <span className="text-white">Ready to start a</span>
+          <br />
           <span className="text-indigo-600 italic">new project?</span>
         </h2>
 

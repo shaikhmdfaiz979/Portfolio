@@ -21,4 +21,24 @@ export const projects = [
     github: "https://github.com/shaikhmdfaiz979/admin-dashboard",
     size: "md:col-span-1",
   },
+  {
+    id: 3,
+    title: "Trello Clone",
+    category: "Project Management App",
+    description:
+      "A Trello-inspired task management application with draggable lists and cards built using dnd-kit. Features global state management with Redux Toolkit, persistent data using localStorage, unique ID generation with nanoid, and a responsive UI styled with Tailwind CSS and DaisyUI.",
+    tech: [
+      "React",
+      "Redux Toolkit",
+      "dnd-kit",
+      "Tailwind CSS",
+      "DaisyUI",
+      "nanoid",
+      "Lucide React",
+      "Vite",
+    ],
+    link: "https://trello-clone-bgw.pages.dev/", // replace with deployed link
+    github: "https://github.com/shaikhmdfaiz979/trello-clone",
+    size: "md:col-span-1",
+  },
 ];

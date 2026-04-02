@@ -15,7 +15,7 @@ export default function ContactAction() {
       <div className="flex flex-col items-center group">
         <button
           onClick={handleCopy}
-          className="text-2xl md:text-4xl font-bold text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-all cursor-pointer relative"
+          className="text-2xl md:text-4xl font-bold text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-all cursor-pointer relative"
         >
           {email}
           {/* Animated underline */}

@@ -8,7 +8,8 @@ export default function Home() {
       {/* Hero */}
       <section className="text-center mb-32 pt-10">
         <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-slate-900 dark:text-white">
-          Frontend <span className="text-indigo-600 italic">Engineer.</span>
+          <span className="text-white">Frontend</span>{" "}
+          <span className="text-indigo-600 italic">Engineer.</span>
         </h1>
         <p className="mt-8 text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
           Specializing in building clean, responsive, and user-centric web
