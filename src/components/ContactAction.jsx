@@ -34,7 +34,7 @@ export default function ContactAction() {
         <a
           target="_blank"
           href="https://shaikhmdfaiz979.github.io/Resume/resume.pdf"
-          className="hidden md:block bg-indigo-600 text-white px-5 py-2 rounded text-xs font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20"
+          className=" bg-indigo-600 text-white px-5 py-2 rounded text-xs font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-500/20"
           onClick={() => {}}
         >
           Go to resume page

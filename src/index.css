@@ -23,7 +23,7 @@ h3 {
   @apply bg-transparent;
 }
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-300 dark:bg-slate-800 rounded-full;
+  @apply bg-slate-800 rounded-full;
 }
 @keyframes reveal {
   from {
